@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
+  
+  toggleNavbar = true;
 
   constructor(private route:Router) {}
 
