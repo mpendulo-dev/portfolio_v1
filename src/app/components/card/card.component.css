@@ -1,27 +1,43 @@
 /* LinkedIn custome style */
 .btn-outline-linkedin {
-    border-color: #0077B5;
-    
+    border-color: #0077b5;
 }
+
 .btn-outline-linkedin:hover {
-    background-color: #0077B5;
+    background-color: #0077b5;
     color: white;
 }
+
 /* Twitter custom style */
 /* #08a0e9 */
 .btn-outline-twitter {
     border-color: #08a0e9;
 }
+
 .btn-outline-twitter:hover {
+
     background-color: #08a0e9;
     color: white;
 }
 
 /* project link custom style */
 .btn-outline-projects {
-    border-color: #75E6DA;
+    border-color: #75e6da;
 }
+
 .btn-outline-projects:hover {
-    background-color: #75E6DA;
+    background-color: #75e6da;
     color: white;
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+    .btn {
+    padding-top: 5px;
+    margin: 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+    .btn-outline-projects{
+        margin-top: 15px;;
+    }
 }
