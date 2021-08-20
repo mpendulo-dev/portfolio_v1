@@ -31,16 +31,16 @@
 }
 
 
-/* mobile responsive */
-@media (min-width: 320px) and (max-width: 320px) {
+/* mobile responsive - for small, medium and large phones */
+@media (min-width: 0px) and (max-width: 480px) {
     .btn {
     padding-top: 5px;
     margin: 10px;
     width: 100px !important;
     }
-}
-@media (min-width: 375px) and (max-width: 426px) {
-    .btn-outline-projects{
-        margin-top: 15px;
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
