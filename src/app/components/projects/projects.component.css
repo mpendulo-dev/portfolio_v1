@@ -1,10 +1,7 @@
 /* LinkedIn custome style */
-.btn-outline-view {
-    border-color: #69f798;
-    width: 100px !important;
+.btn-outline-primary {
+    width: 100px !important;   
+    
 }
 
-.btn-outline-view:hover {
-    background-color: #69f798;
-    color: white;
-}
+

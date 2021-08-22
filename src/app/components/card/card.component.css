@@ -1,6 +1,7 @@
 /* LinkedIn custome style */
 .btn-outline-linkedin {
     border-color: #0077b5;
+    color: #0077b5;
 }
 
 .btn-outline-linkedin:hover {
@@ -12,6 +13,7 @@
 /* #08a0e9 */
 .btn-outline-twitter {
     border-color: #08a0e9;
+    color: #08a0e9;
 }
 
 .btn-outline-twitter:hover {
@@ -22,7 +24,8 @@
 
 /* project link custom style */
 .btn-outline-projects {
-    border-color: #75e6da;
+    border-color: #67cac0;
+    color: #67cac0;
 }
 
 .btn-outline-projects:hover {
