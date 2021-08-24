@@ -24,12 +24,12 @@
 
 /* project link custom style */
 .btn-outline-projects {
-    border-color: #67cac0;
-    color: #67cac0;
+    border-color: #20c997;
+    color: #20c997;
 }
 
 .btn-outline-projects:hover {
-    background-color: #75e6da;
+    background-color: #20c997;
     color: white;
 }
 
