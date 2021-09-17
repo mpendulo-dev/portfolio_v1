@@ -1,4 +1,9 @@
 import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
+
+// declare const gtag: Function;
+declare let ga: Function;
 
 @Component({
   selector: 'app-root',
@@ -6,6 +11,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfolio';
+
+  constructor(private router: Router) {}
+
+  ngOnInit() {
+      this.setUpAnalytics();
+  }
+
+  setUpAnalytics() {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        ga('set', 'page', event.urlAfterRedirects);
+        ga('send', 'pageview');
+        
+      }
+    });
+  }
   
 }
